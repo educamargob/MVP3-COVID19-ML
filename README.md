@@ -16,20 +16,20 @@ Bibliotecas principais:
 📊 Etapas do Projeto
 - Exploração do Dataset
 - Análise das variáveis clínicas e demográficas.
--Identificação de desbalanceamento de classes.
--Pré-processamento
--Criação do rótulo (died).
--Conversão de variáveis binárias para booleanas.
--Agrupamento de faixas etárias.
--Balanceamento de Classes
--Aplicação de undersampling para reduzir o viés do modelo.
--Modelagem
--Teste inicial com 7 algoritmos de classificação (LR, KNN, CART, NB, RF, GBM, ADA).
--Comparação de métricas: acurácia, f1-score e matriz de confusão.
--Seleção do GBM como melhor modelo.
--Otimização de Hiperparâmetros
--Aplicação de GridSearchCV.
--Melhores parâmetros identificados:
+- Identificação de desbalanceamento de classes.
+- Pré-processamento
+- Criação do rótulo (died).
+- Conversão de variáveis binárias para booleanas.
+- Agrupamento de faixas etárias.
+- Balanceamento de Classes
+- Aplicação de undersampling para reduzir o viés do modelo.
+- Modelagem
+- Teste inicial com 7 algoritmos de classificação (LR, KNN, CART, NB, RF, GBM, ADA).
+- Comparação de métricas: acurácia, f1-score e matriz de confusão.
+- Seleção do GBM como melhor modelo.
+- Otimização de Hiperparâmetros
+- Aplicação de GridSearchCV.
+- Melhores parâmetros identificados:
   {
     "learning_rate": 0.1,
     "max_depth": 4,
